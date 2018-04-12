@@ -4,7 +4,7 @@ class User extends Component {
 	render () {
     return (
       <li>
-        {this.props.name} - {this.props.email}
+        {this.props.name.title} - {this.props.email}
       </li>
     );
   }
